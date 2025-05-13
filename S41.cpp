@@ -9,7 +9,7 @@ double squared_sum(double a, double b) {
 }
 
 int main() {
-    setlocale(LC_ALL, "Russian");
+    setlocale(0, "Russian");
     double a, b;
     cout << "Введите первое число: ";
     cin >> a;
